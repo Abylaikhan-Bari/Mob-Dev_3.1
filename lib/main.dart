@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Animated Widgets Demo',
+      title: 'Ushinshi praktika',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -55,7 +55,7 @@ class HomeScreen extends StatelessWidget {
       length: myTabs.length,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Animated Widgets Demo'),
+          title: Text('Ushinshi praktika'),
           bottom: TabBar(
             isScrollable: true,
             tabs: myTabs,
